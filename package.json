@@ -1,0 +1,31 @@
+{
+  "name": "nodebb-plugin-redirections",
+  "version": "0.1.0",
+  "description": "Redirect 404 errors to other resources",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zipang/nodebb-plugin-redirections"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "quickstart",
+    "shell"
+  ],
+  "author": {
+    "name": "zipang",
+    "email": "christophe.desguez@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zipang/nodebb-plugin-redirections/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "yaml-front-matter": "^3.4.0"
+  }
+}

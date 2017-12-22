@@ -1,0 +1,23 @@
+{
+	"id": "nodebb-plugin-redirections",
+	"url": "https://github.com/NodeBB/nodebb-plugin-redirections",
+	"library": "./plugin.js",
+	"hooks": [
+		{
+			"hook": "action:meta.override404", "method": "redirect"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+
+	],
+	"acpScripts": [
+
+	],
+	"templates": "static/templates"
+}
